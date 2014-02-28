@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>2-in-one-box-with-fields</title>
+
+    <meta name="description" content = "Code to center two boxes inside one large box."/>
+
+	<style type="text/css">
+		* {
+			font-family: sans-serif;
+			border: 1px solid black;
+		}
+
+		#big-box {
+			margin: auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background-color: lightblue;
+			width: 1200px;
+			height: 450px;	
+		}
+
+		#left-box, #right-box{
+			vertical-align: top;
+			display: inline-block;
+			width: 555px;
+			height: 400px;
+			margin: 20px 20px;
+		}
+
+		#left-box{
+			background-color: green;
+		}
+
+		#left-box label{
+			background-color: orange;
+			display: block;
+			margin: 20px 0px;
+			text-align: right;
+		}
+
+		#right-box{
+			background-color: blue;
+		}
+	</style>
+</head>
+
+<body>
+	<div class='wrapper'>
+
+		<div id="big-box">
+
+			<div id="left-box">
+				<label>First Name: <input type="text" name="first_name" placeholder="James"></label>
+				<label>Middle Initial: <input type="text" name="middle_initial" placeholder="T"></label>
+				<label>Last Name: <input type="text" name="last_name" placeholder="Kirt"></label>
+			</div>
+
+			<div id="right-box">
+				right box
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>

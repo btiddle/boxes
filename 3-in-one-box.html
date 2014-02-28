@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>3-in-one-box</title>
+
+    <meta name="description" content = "Code to center three small boxes inside one large box."/>
+
+	<style type="text/css">
+		* {
+			font-family: sans-serif;
+		}
+
+		#large_box {
+			margin: 0px auto;
+			margin-top: 30px;
+			background-color: lightblue;
+			width: 1200px;
+			height: 300px;	
+		}
+		#large_box div
+		{
+			background-color: blue;
+			display: inline-block;
+			width: 350px;
+			height: 130px;
+			margin: 60px 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class='wrapper'>
+		<div id='large_box'>
+			<div class='side_box'></div>
+			<div class='middle_box'></div>
+			<div class='side_box'></div>
+		</div>
+	</div>
+</body>
+</html>

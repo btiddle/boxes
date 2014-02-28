@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<html>
+<head>
+	<meta charset = "utf-8"/>
+	<title>2-in-one-box-with-fields</title>
+
+    <meta name="description" content = "Code to center two boxes inside one large box."/>
+
+	<style type="text/css">
+		* {
+			font-family: sans-serif;
+			border: 1px solid black;
+		}
+
+		#big-box {
+			margin: 0px auto;
+			margin-top: 30px;
+			margin-bottom: 30px;
+			background-color: lightblue;
+			width: 1200px;
+			height: 450px;	
+		}
+
+		#left-box, #right-box{
+			/*vertical-align: top;*/
+			display: inline-block;
+			width: 555px;
+			height: 400px;
+			margin: 20px 20px;
+		}
+
+		#left-box{
+			background-color: green;
+		}
+
+		#right-box{
+			background-color: blue;
+		}
+	</style>
+</head>
+
+<body>
+	<div class='wrapper'>
+
+		<div id="big-box">
+
+			<div id="left-box">
+			 <p>hello</p>
+			 <p>bye</p>
+			</div>
+
+			<div id="right-box">
+				right box
+			</div>
+
+		</div>
+
+	</div>
+</body>
+</html>
